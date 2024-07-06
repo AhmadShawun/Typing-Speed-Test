@@ -18,12 +18,12 @@ def speedTime(timeStart, timeEnd, userInput): # speed time
     timeDelay = timeEnd - timeStart
     timeRoundOff = round(timeDelay, 2) # 2digit
     speed = len(userInput) / timeRoundOff
-    return round(speed) #
+    return round(speed) 
 if __name__ == '__main__':
     while True:
         ck = input( " Ready to test : yes / no : ")
         if ck == "yes":
-            test = ["A paragragraph is a self-contained unit of discourse in write","I am Ahmad Shawun", "welcome the python"] 
+            test = ["A paragragraph is a self-contained unit of discourse in write","I am Ahmad Shawun", "welcome to the python"] 
 
             test1 = r.choice(test) #randomly show the test set result
             print('      ****** typing speed ******** ')
