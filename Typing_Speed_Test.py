@@ -1,0 +1,1 @@
+print('typing speed test')
