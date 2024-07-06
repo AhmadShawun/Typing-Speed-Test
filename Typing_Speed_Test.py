@@ -33,4 +33,5 @@ time1 = time() # fristly take the time when it started
 testInput = input(" Enter: ")
 time2 = time() # end the time when user done
 
-
+print(' Speed : ',speedTime(time1, time2, testInput), 'word/second')
+print(' Error : ', mistake(test1, testInput))
